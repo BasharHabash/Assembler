@@ -1,0 +1,33 @@
+movi 0,R0
+movi 0,R1
+movi 0,R2
+movi 0,R3
+movi 0,R4
+movi 0,R5
+movi 0,R6
+movi 0,R7
+movi 0,R8
+movi 0,R9
+movi 0,R10
+movi 0,R11
+movi 0,R12
+movi 0,R13
+movi 0,R14
+movi 0,R15
+		addi 100,R5
+        addi 110,R5
+        addi 3,R6
+        lshi 14,R6
+        add R6,R5
+        addi 32,R7
+        stor R5,R7
+		addi 1,R5
+        stor R5,R7
+        addi 1,R5
+        stor R5,R7
+        addi 1,R5
+        stor R5,R7
+        addi 1,R5
+        stor R5,R7
+loop: cmp R13, R14
+jeq loop
